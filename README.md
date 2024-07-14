@@ -59,7 +59,7 @@ You have 8 hours to complete both exams. Manage your time wisely between the two
 
 - You may use online documentation and resources.
 - Do not copy code directly from other sources. We value original solutions. 
-- Please do not use AI or automated tools to complete the assessment. We run plagiarism checks on submissions.
+- Please do not use AI or automated tools to complete the assessment. We run plagiarism checks on submissions. You can use AI tools as google. "E.g. if we do not know how to creat a custom hook you can and should use it to write a prompt e.g. "How to create a custom hook in react"
 
 ### Questions
 
