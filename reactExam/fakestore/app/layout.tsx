@@ -17,9 +17,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="bg-gray-100">
-         {children}
-        </div>
+        <main className="flex min-h-screen flex-col items-center justify-start p-10">
+          <h1 className="text-3xl text-orange-600">Online Shop</h1>
+          {children}
+        </main>
       </body>
     </html>
   );

@@ -20,7 +20,7 @@ const Products = async () => {
   }
   
   if (error) {
-    return <div className="text-red-500">Failed to load products: {error}</div>;
+    return <div className="text-red-500">Oops, an error occurred. Please try later</div>;
   }
   
   return (
@@ -35,7 +35,6 @@ const Products = async () => {
             image={product.image}
             title={product.title}
             category={product.category}
-            description={product.description}
           />
         ))}
       </div>

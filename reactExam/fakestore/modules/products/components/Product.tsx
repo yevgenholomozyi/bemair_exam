@@ -7,8 +7,13 @@ import Image from 'next/image';
 // Components
 import ButtonLink from '@/components/ButtonLink';
 
-// Interfaces
-import { IProduct } from '@/interfaces/product';
+interface IProductProps {
+  image: string
+  title: string
+  category: string
+  price: string | number
+  id: string | number
+}
 
 const Product = ({
   image,
@@ -16,7 +21,7 @@ const Product = ({
   category,
   price,
   id,
-}: IProduct) => {
+}: IProductProps) => {
   return (
     <div className="w-full overflow-hidden rounded-lg bg-gray-200 flex flex-col items-center justify-between p-4 hover:scale-110 hover:cursor-pointer transition delay-150 duration-300 ease-in-out">
       <div className="h-[200px] relative p-5 rounded-md flex justify-center items-center">
